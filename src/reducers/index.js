@@ -1,4 +1,8 @@
 export default (state, action) => {
-    console.log(action);
-    return state;
-}
+    switch (action.type) {
+      case "SET_TECHNOLOGY":
+        console.log(action);
+      default:
+        return state;
+    }
+  };

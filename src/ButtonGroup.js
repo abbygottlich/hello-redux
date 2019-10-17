@@ -7,7 +7,7 @@ import { dispatchBtnAction } from "./actions/index";
 // the data-tech attribute is a data attribute which is used to store extra information for easy access to this value later
 
 const ButtonGroup = ({ technologies }) => (
-  <div>
+  <div className="button-container">
     {technologies.map((tech, i) => (
       <button
         data-tech={tech}

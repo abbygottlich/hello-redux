@@ -42,3 +42,19 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+
+.button-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.hello-btn {
+  color: white;
+  font-size: 14px;
+  padding: 8px 20px;
+  margin-top: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #6C63FF;
+}
